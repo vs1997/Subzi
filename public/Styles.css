@@ -1,0 +1,21 @@
+.header {
+  background: linear-gradient(180deg, #0a74bb, #1a93e4);
+}
+
+.nav-menu {
+  color: #eaf3fa;
+  padding: 6px 12px;
+}
+
+.btn {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.menu-list {
+  margin-right: 300px;
+}
+
+.icon {
+  margin-left: 200px;
+}

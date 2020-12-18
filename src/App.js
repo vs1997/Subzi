@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
+import Navbar from './Components/Navbar';
+import {Switch, Redirect, Route } from 'react-router';
+import Games from './Components/Games';
+import Gallery from './Components/Gallery';
+import Home from './Components/Home';
+import SubziGame from './Components/SubziGame';
+import About from './Components/About';
+import Join from './Components/Join';
+import Footer from './Components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Navbar />
+      <Home />
+      <SubziGame />
+      <About />
+      <Join />
+      <Footer />
+
+      <Switch>
+        {/* <Route exact path='/' component={Home}></Route> */}
+        <Route exact path='/Games' component={Games}></Route>
+        <Route exact path='/Gallary' component={Gallery}></Route>
+        <Redirect to='/'></Redirect>
+      </Switch>
     </div>
   );
 }

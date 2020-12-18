@@ -1,0 +1,130 @@
+.GamesSection {
+  position: absolute;
+  top: 80px;
+  background-color: white;
+}
+
+.image1 {
+  position: absolute;
+  left: 140px;
+  top: 600px;
+}
+
+.img1 {
+  width: 460px;
+  height: 650px;
+  border-radius: 70px 0px 0px 0px;
+}
+
+.img2 {
+  position: absolute;
+  width: 460px;
+  height: 650px;
+  border-radius: 0px 0px 70px 0px;
+  margin-left: 20px;
+}
+.GameName {
+  position: absolute;
+  top: 650px;
+}
+.game1 {
+  font-family: Anton;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 44px;
+
+  color: #000000;
+}
+
+.game2 {
+  position: absolute;
+  margin-left: 400px;
+  font-family: Anton;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 44px;
+
+  color: #000000;
+}
+
+.heading1 {
+  position: absolute;
+  left: 1130px;
+  top: 650px;
+}
+
+.bodyheading1 {
+  width: 200px;
+  height: 44px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #87ea00;
+  font-family: 'Anton', sans-serif;
+}
+
+.bodyheading2 {
+  width: 331px;
+  height: 176px;
+  left: 1265px;
+  top: 1053px;
+
+  font-family: Anton;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 88px;
+
+  color: #000000;
+}
+
+.infoCont {
+  position: absolute;
+  left: 0px;
+  top: 400px;
+}
+
+.bodyinfo {
+  font-family: Epilogue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.arroww {
+  position: absolute;
+  width: 200px;
+  height: 28px;
+  left: -55px;
+  top: -5px;
+  font-size: 42px;
+  height: 23.75px;
+  color: white;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #87ea00;
+  outline-style: #87ea00;
+}
+
+.arrow {
+  position: absolute;
+  width: 200px;
+  height: 28px;
+  left: 50px;
+  top: 145px;
+
+  font-family: Epilogue;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #87ea00;
+}

@@ -1,0 +1,105 @@
+.AboutSection {
+  position: relative;
+  top: 850px;
+}
+
+.AboutImgSet {
+  position: absolute;
+  
+  left: 800px;
+  top: -20px;
+}
+
+.AboutImg {
+  height: 580px;
+  width: 620px;
+  border-radius: 0px 70px 0px 0px;
+}
+
+.coloum-header {
+  position: absolute;
+  left: 140px;
+  top: 0px;
+}
+
+.About-Header {
+  position: absolute;
+  width: 139px;
+  height: 44px;
+  font-family: Anton;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #87ea00;
+}
+
+.HeadingSet {
+  position: absolute;
+  left: 139px;
+  top: 30px;
+}
+
+.Heading {
+  position: absolute;
+  width: 509px;
+  height: 88px;
+  font-family: Anton;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 88px;
+  color: #000000;
+}
+
+.HeadSet1 {
+  position: absolute;
+  left: 140px;
+  top: 120px;
+}
+.Heading2 {
+  width: 493px;
+  height: 56px;
+  font-family: Epilogue;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.ParSet1 {
+  position: absolute;
+  top: 90px;
+}
+.Par1 {
+  width: 583px;
+  height: 168px;
+
+  font-family: Epilogue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+
+  color: #000000;
+}
+.ParSet2 {
+  position: absolute;
+  top: 250px;
+}
+.Par2 {
+  width: 583px;
+  height: 112px;
+
+  font-family: Epilogue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+
+  color: #000000;
+}

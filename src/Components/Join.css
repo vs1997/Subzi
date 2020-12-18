@@ -1,0 +1,79 @@
+.JoinCont {
+  position: absolute;
+  width: 1520px;
+  height: 356px;
+  left: 0px;
+  top: 2150px;
+  background: #87ea00;
+}
+
+.TitleSet {
+  position: absolute;
+  left: 267px;
+  top: 100px;
+}
+
+.Title {
+  width: 314px;
+  height: 88px;
+  font-family: Anton;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 88px;
+  color: #0f3a06;
+}
+.MsgSet {
+  position: absolute;
+  left: 267px;
+  top: 210px;
+}
+
+.Msg {
+  width: 593px;
+  height: 56px;
+  font-family: Epilogue;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+}
+.JoinButton {
+    position: absolute;
+    width: 235px;
+    height: 75px;
+    left: 1020px;
+    top: 149px;
+    
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 37px;
+}
+
+.Joinbtn {
+
+    position: absolute;
+    width: 72px;
+    height: 32px;
+    left:  50px;;
+    top: 20px;
+    font-family: Epilogue;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+.Joinbtnline {
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    left: 110px;
+    top: 16px;
+    background: #0f3a06;
+  }

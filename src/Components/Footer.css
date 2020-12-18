@@ -1,0 +1,79 @@
+.FooterBody {
+  position: absolute;
+  width: 1520px;
+  height: 224px;
+  left: 0px;
+  top: 2505px;
+  background: #0a0b0e;
+  /* transform: matrix(1, 0, 0, -1, 0, 0); */
+}
+
+.Footer-Heading {
+  position: absolute;
+  height: 10px;
+  top: 70px;
+  left: 150px;
+}
+
+.FooterHeading {
+  position: absolute;
+  width: 109.83px;
+  height: 65.11px;
+  left: -0px;
+  text-decoration: none;
+  font-size: 60px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.copyright {
+  position: absolute;
+  width: 265px;
+  height: 14px;
+  left: 145px;
+  top: 120px;
+
+  font-family: Epilogue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+
+  color: #ffffff;
+}
+
+.ShortSet {
+  position: absolute;
+  width: 21px;
+  height: 18px;
+  left: 400px;
+  top: 5px;
+  font-family: Epilogue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+.Short {
+  margin-left: 20px;
+}
+
+.FooterMenu {
+  position: absolute;
+  width: 82px;
+  height: 18px;
+  left: 450px;
+  top: 15px;
+  font-family: Epilogue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+
+.ShortName {
+  margin-left: 50px;
+}
